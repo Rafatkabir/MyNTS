@@ -1,0 +1,28 @@
+.about-container{
+    padding-top: 150px;
+}
+.personal-info{
+    display: flex;
+}
+.personal-info-data{
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    list-style-type: none;
+    margin: 0;
+}
+.personal-info-data-container{
+    height: 100%;
+}
+.personal-info-data-contents{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.personal-info-image{
+    height: 300px;
+}

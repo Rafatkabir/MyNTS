@@ -1,0 +1,36 @@
+.contact-container{
+    padding-top: 150px;  
+    /* display: flex;
+    flex-direction: column;
+    text-align: center;  */
+}
+.contact-header{
+    font-family:monospace;
+    font-size: 3rem;
+    margin: 0;
+}
+.contact-header-lower{
+    margin-bottom: 30px;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.5rem;
+}
+.contact-grid-container{
+    display: grid;
+    row-gap: 50px;
+    column-gap: 70px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    list-style-type: none;
+}
+.contact-grid-container-item{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: "Comic Neue", cursive;
+}
+a{
+    text-decoration: none;
+}

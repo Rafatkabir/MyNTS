@@ -1,0 +1,46 @@
+.internet-security-container{
+    padding-top: 200px;
+}
+.internet-security-container > h1{
+    text-align: center;
+    font-family: "Comic Neue", cursive;
+}
+.internet-security-grid{
+    display: grid;
+    row-gap: 50px;
+    column-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+.internet-security-cards{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-top-right-radius: 25px;
+    height: 350px;
+}
+.internet-security-cards > ul{
+    list-style-type: none;
+}
+.internet-security-img{
+    height: 150px;
+}
+.internet-security-infos{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+.asking-model-price-btn{
+    height: 50px;
+    background-color: rgb(125, 125, 230);
+    border-radius: 10px;
+    font-size: large;
+}
+.asking-model-price-btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: wheat;
+    cursor: pointer;
+}
+
