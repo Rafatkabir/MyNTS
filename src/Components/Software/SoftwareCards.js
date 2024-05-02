@@ -14,8 +14,11 @@ export default function SoftwareCards(prop){
                     <li>{prop.id}</li>
                 </div>
             </ul>
+            <NavLink to="https://nettech2024.blogspot.com/2024/04/payroll-system.html" className="ask-for-price">
+            <button className="button-55" role="button">See Details</button>
+            </NavLink>
             <NavLink to="/request" className="ask-for-price">
-            <button className="button-55" role="button">Request For Service</button>
+            <button className="button-55" role="button">Ask For Price</button>
             </NavLink>
             {/* <button className="my-button-1"> Button
             <span></span>

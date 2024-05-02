@@ -3,7 +3,7 @@ export default[
         id:1,
         brand: "Payroll System",
         img: "Payroll System.jpg",
-        type: 1,        
+        type: 1  
     },
     {
         id:2,

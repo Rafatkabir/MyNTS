@@ -7,9 +7,12 @@
     box-shadow: 10px 5px 5px rgb(137, 121, 121);
     margin: 0 auto;
     position: fixed;
-    background-color: rgb(229, 245, 255);
+    background-color: #F1EFE7ff;
     width: 100%;
     z-index: 1000;
+}
+.nav-logo{
+    margin-left: 15px;
 }
 .and-sign{
     text-align: center;

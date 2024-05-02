@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import './Laptop.css';
-import { NavLink } from "react-router-dom"; // Import NavLink from react-router-dom
+import { NavLink } from "react-router-dom";
 import laptopData from "./laptopData";
 import LaptopCards from "./LaptopCards";
 import Loading from "../Loading/Loading"; 
 
 export default function Laptop() {
     const [isLoading, setIsLoading] = useState(true);
+    const [selectedCategory, setSelectedCategory] = useState(""); // Initial value is ""
 
     useEffect(() => {
         // Simulate loading for 1-2 seconds
@@ -17,6 +18,10 @@ export default function Laptop() {
         // Cleanup function
         return () => clearTimeout(timeout);
     }, []);
+
+    const handleCategoryChange = (category) => {
+        setSelectedCategory(category);
+    };
 
     const brandNew = laptopData
         .filter(item => item.type === 1)
@@ -40,15 +45,18 @@ export default function Laptop() {
                 <Loading /> // Render loading animation while isLoading is true
             ) : (
                 <>
-                    <h1>Brand New Laptop</h1>
-                    <div className="laptop-grid">
-                        {brandNew}
+                    <div className="buttons-container">
+                        <button onClick={() => handleCategoryChange("brandNew")}>Brand New</button>
+                        <button onClick={() => handleCategoryChange("secondHand")}>Second Hand</button>
                     </div>
-                    <hr className="horizontal-line" />
-                    <h1>Second Hand Laptop</h1>
-                    <div className="laptop-grid">
-                        {secondHand}
-                    </div>
+                    {selectedCategory !== "" && (
+                        <>
+                            <h1>{selectedCategory === "brandNew" ? "Brand New Laptop" : "Second Hand Laptop"}</h1>
+                            <div className="laptop-grid">
+                                {selectedCategory === "brandNew" ? brandNew : secondHand}
+                            </div>
+                        </>
+                    )}
                 </>
             )}
         </div>

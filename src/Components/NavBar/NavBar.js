@@ -8,7 +8,9 @@ export default function NavBar() {
   return (
     <div>
       <nav className="nav-container">
-        <img src={logo} />
+        <NavLink to="/">
+          <img className="nav-logo" src={logo} />
+        </NavLink>
         <ul>
           <li>
             <NavLink className='nav-link' to="/">Home</NavLink>
@@ -36,9 +38,9 @@ export default function NavBar() {
           <li>
             <NavLink className='nav-link' to="about">About</NavLink>
           </li>
-          {/* <li>
-            <NavLink to="request">Request Product</NavLink>
-          </li> */}
+          <li>
+            <NavLink to="https://nettech2024.blogspot.com">Blogs</NavLink>
+          </li>          
           <li>
             <NavLink className='nav-link' to="contact">Contact</NavLink>
           </li>

@@ -1,5 +1,5 @@
 .footer-container{
-    background-color: rgb(229, 245, 255); /*rgb(229, 245, 255)*/
+    background-color: #F1EFE7ff; /*rgb(229, 245, 255)*/
     padding-bottom: 50px;
     margin-bottom: 20px;
     display: flex;
@@ -68,4 +68,10 @@
 .footer-contact{
     display: flex;
     margin-right: 150px;
+}
+.footer-contact{
+    margin-top: 20px;
+}
+.footer-address{
+    margin-left: 50px;
 }
