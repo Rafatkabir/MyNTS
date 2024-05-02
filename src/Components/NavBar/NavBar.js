@@ -39,7 +39,7 @@ export default function NavBar() {
             <NavLink className='nav-link' to="about">About</NavLink>
           </li>
           <li>
-            <NavLink to="https://nettech2024.blogspot.com">Blogs</NavLink>
+            <NavLink className='nav-link' to="https://nettech2024.blogspot.com">Blogs</NavLink>
           </li>          
           <li>
             <NavLink className='nav-link' to="contact">Contact</NavLink>
