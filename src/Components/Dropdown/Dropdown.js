@@ -36,7 +36,7 @@ const Dropdown = ({ handleDropdownChange }) => {
 
   return (
     <div className="dropdown" ref={dropdownRef}>
-      <div style={{ fontSize: "18px" }}>Select The Service You Want</div>
+      <div style={{ fontSize: "18px"}}>Select The Suitable Option</div>
       <div className="dropbtn-container">
         <button
           className="dropbtn"
@@ -45,7 +45,7 @@ const Dropdown = ({ handleDropdownChange }) => {
             fontSize:
               selectedOption === "Click to see the options"
                 ? "15px"
-                : "18px",
+                : "18px"
           }}
         >
           {selectedOption}
@@ -56,39 +56,39 @@ const Dropdown = ({ handleDropdownChange }) => {
             <div className="main-menu">
               <div
                 className="main-menu-content"
-                onClick={() => handleMainMenuItemClick("Network Services")}
+                onClick={() => handleMainMenuItemClick("Laptop")}
               >
-                Network Services
+                Laptop
               </div>
               <div
                 className="main-menu-content"
-                onClick={() => handleMainMenuItemClick("Printer Services")}
+                onClick={() => handleMainMenuItemClick("Software")}
               >
-                Printer Services
+                Software
               </div>
               <div
                 className="main-menu-content"
-                onClick={() => handleMainMenuItemClick("Computer Services")}
+                onClick={() => handleMainMenuItemClick("Internet Security")}
               >
-                Computer Services
+                Internet Security
               </div>
               <div
                 className="main-menu-content"
-                onClick={() => handleMainMenuItemClick("LED Repairing")}
+                onClick={() => handleMainMenuItemClick("Hardware Security")}
               >
-                LED Repairing
+               Hardware Security
               </div>
               <div
                 className="main-menu-content"
-                onClick={() => handleMainMenuItemClick("Laptop Services")}
+                onClick={() => handleMainMenuItemClick("Service & Solution")}
               >
-                Laptop Services
+                Service & Solution
               </div>
               <div
                 className="main-menu-content"
-                onClick={() => handleMainMenuItemClick("IT Enabled Services")}
+                onClick={() => handleMainMenuItemClick("Accessories")}
               >
-                IT Enabled Services
+                Accessories
               </div>
             </div>
           </div>

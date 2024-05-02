@@ -9,7 +9,7 @@ export default function Accessories() {
 
   useEffect(() => {
     // Generate a random delay between 1 to 6 seconds
-    const randomDelay = Math.random() * 5000 + 1000; // Random delay between 1000ms (1 second) and 3000ms (6 seconds)
+    const randomDelay = Math.random() * 2000 + 1000; // Random delay between 1000ms (1 second) and 3000ms (6 seconds)
     
     // Simulate loading for the random delay
     const timeout = setTimeout(() => {
