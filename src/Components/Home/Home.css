@@ -1,6 +1,40 @@
-.home-wrapper{
-    padding-top: 150px;
-}
-.home-container{
-    text-align: center;
-}
+.home-wrapper {
+    padding-top: 150px;  /* You can adjust or remove this depending on your layout */
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .slide-show-img {
+    display: none;
+    max-width: 800px;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 2s ease;
+    /* position: absolute; */ /* Remove this */
+    margin-left: 50px;
+  }
+  
+  .slide-show-img.active {
+    opacity: 1;
+    display: block;
+  }
+  
+  .calendar-container {
+    /* position: relative; */
+    display: flex; /* Add this to align calendar with other content */
+    justify-content: flex-end; /* Add this to align calendar to the right */
+    margin-right: 30px;
+  }
+  
+  .calendar-wrapper {
+    /* position: absolute; */ /* Remove this */
+    /* right: 10px; */ /* Remove this */
+    /* top: 150px; */ /* Remove this */
+  }
+  .home-intro{
+    display: flex;
+    justify-content: space-between;
+  }
