@@ -3,6 +3,7 @@ import { NavLink, Outlet } from "react-router-dom";
 
 import "./NavBar.css";
 import logo from "../../Images/NavBar/logo.png";
+import Footer from "../Footer/Footer";
 export default function NavBar() {
   return (
     <div>
@@ -46,6 +47,7 @@ export default function NavBar() {
       <main>
         <Outlet />
       </main>
+      <Footer />
     </div>
   );
 }

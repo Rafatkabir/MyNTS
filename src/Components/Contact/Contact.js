@@ -4,8 +4,10 @@ import gmail from "../../Images/Contact/gmail.png";
 import whatsapp from "../../Images/Contact/whatsapp.png";
 import facebook from "../../Images/Contact/facebook.png";
 import Loading from "../Loading/Loading"; // Assuming you have a Loading component
+// import { useScrollToTop } from '@react-navigation/native';
 
 export default function Contact() {
+  // useScrollToTop();
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {

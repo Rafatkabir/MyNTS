@@ -1,6 +1,7 @@
 import React from "react";
 import './InternetSecurity.css'
 import logo from  '../../Images/Services/Laptop/ACER.jpg'
+import { NavLink } from "react-router-dom";
 export default function InternetSecurityCards(prop){
     return(
         <div className="internet-security-cards">
@@ -14,7 +15,9 @@ export default function InternetSecurityCards(prop){
                     <li>{prop.id}</li>
                 </div>
             </ul>
+            <NavLink to="/request" className="ask-for-price">
             <button className="button-55" role="button">Request For Service</button>
+            </NavLink>
             {/* <button className="my-button-1"> Button
             <span></span>
             </button> */}

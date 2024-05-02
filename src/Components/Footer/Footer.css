@@ -1,0 +1,71 @@
+.footer-container{
+    background-color: rgb(229, 245, 255); /*rgb(229, 245, 255)*/
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo-contact{
+    max-width: 150px;
+    margin-left: 50px;
+}
+.footer-logo{
+    width: 100%;
+}
+.contact-logos{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-facebook-logo,
+.footer-whatsapp-logo,
+.footer-linkedin-logo,
+.footer-linkedin-logo{    
+    transition: color 0.5s; 
+    scale: 1.2;
+}
+
+.footer-facebook-logo:hover{
+    color: #173f8e;
+    cursor: pointer;
+}
+.footer-whatsapp-logo:hover{
+    color: #54b854;
+    cursor: pointer;
+}
+.footer-linkedin-logo:hover{
+    color: #0077b5;
+    cursor: pointer;
+}
+.footer-gmail-logo:hover{
+    color: #DB4437;
+    cursor: pointer;
+}
+.footer-options{
+    margin-top: 20px;
+    display: flex;
+}
+.footer-options > ul{
+    list-style-type: none;
+}
+.footer-options > ul > li{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-link{
+    color: black;
+}
+.footer-link:hover{
+    color: rgb(249, 21, 101);
+}
+.footer-options > ul > li:hover{
+    text-decoration: underline;
+}
+.vertical-line{
+    border-left: 1.9px solid black;
+    height: 250px;
+}
+.footer-contact{
+    display: flex;
+    margin-right: 150px;
+}

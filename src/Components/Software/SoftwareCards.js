@@ -1,5 +1,6 @@
 import React from "react";
 import './Software.css'
+import { NavLink } from "react-router-dom";
 export default function SoftwareCards(prop){
     return(
         <div className="software-cards">
@@ -13,7 +14,9 @@ export default function SoftwareCards(prop){
                     <li>{prop.id}</li>
                 </div>
             </ul>
+            <NavLink to="/request" className="ask-for-price">
             <button className="button-55" role="button">Request For Service</button>
+            </NavLink>
             {/* <button className="my-button-1"> Button
             <span></span>
             </button> */}
