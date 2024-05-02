@@ -10,9 +10,9 @@ export default function NavBar() {
       <nav className="nav-container">
         <img src={logo} />
         <ul>
-          {/* <li>
+          <li>
             <NavLink className='nav-link' to="/">Home</NavLink>
-          </li> */}
+          </li>
           <li>
             <NavLink className='nav-link' to="laptop">Laptop</NavLink>
           </li>
