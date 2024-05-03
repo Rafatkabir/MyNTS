@@ -45,9 +45,9 @@ export default function Laptop() {
                 <Loading /> // Render loading animation while isLoading is true
             ) : (
                 <>
-                    <div className="buttons-container">
-                        <button onClick={() => handleCategoryChange("brandNew")}>Brand New</button>
-                        <button onClick={() => handleCategoryChange("secondHand")}>Second Hand</button>
+                    <div className="laptop-type-btn-container">
+                        <button className="custom-btn btn-1" id="laptop-type-btn" onClick={() => handleCategoryChange("brandNew")}>Brand New</button>
+                        <button className="custom-btn btn-1" onClick={() => handleCategoryChange("secondHand")}>Second Hand</button>
                     </div>
                     {selectedCategory !== "" && (
                         <>

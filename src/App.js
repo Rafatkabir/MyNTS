@@ -24,6 +24,7 @@ import Accessories from './Components/Accessories/Accessories';
 import Request from './Components/Request/Request';
 import Home from './Components/Home/Home';
 import Loading from './Components/Loading/Loading';
+import ErrorAll from './Components/Error/ErrorAll';
 
 
 const router = createBrowserRouter(
@@ -39,6 +40,7 @@ const router = createBrowserRouter(
       <Route path='about' element={<About/>} /> 
       <Route path='contact' element={<Contact/>} /> 
       <Route path='request' element={<Request/>} /> 
+      <Route path='*' element={<ErrorAll />} />
     </Route>
   )
 )

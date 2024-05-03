@@ -1,0 +1,9 @@
+.error-all-nav-link:hover{
+    color: rgb(255, 255, 255);
+    background-color: grey;
+}
+.error-all-nav-link{
+    text-decoration: underline;
+    color: black;
+    margin: 0px 10px;
+}

@@ -43,4 +43,11 @@
     color: wheat;
     cursor: pointer;
 }
-
+.laptop-type-btn-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+#laptop-type-btn{
+    margin-right: 10px;
+}
