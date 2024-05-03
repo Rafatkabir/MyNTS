@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cdccf5f7-2fab-4138-b8b0-ab3f5fc5deaa/deploy-status)](https://app.netlify.com/sites/2024nettechbd/deploys)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,6 +71,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### netilify badges
-[![Netlify Status](https://api.netlify.com/api/v1/badges/cdccf5f7-2fab-4138-b8b0-ab3f5fc5deaa/deploy-status)](https://app.netlify.com/sites/2024nettechbd/deploys)
 
