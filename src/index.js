@@ -7,9 +7,12 @@ import NavBar from './Components/NavBar/NavBar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  // <React.StrictMode>
+  //   <App />
+  // </React.StrictMode>
+  <div>
+      Sorry the page is under maintainence..
+  </div>
   
 );
 
